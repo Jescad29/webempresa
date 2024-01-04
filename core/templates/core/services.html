@@ -1,7 +1,10 @@
-{% extends 'core/base.html'%}
+{% extends 'core/base.html' %}
+
 {% load static %}
 
-{% block content%}
+{% block title %}Servicios{% endblock %}
+
+{% block content %}
 <section class="page-section">
   <div class="container">
     <div class="product-item">
@@ -13,7 +16,7 @@
           </h2>
         </div>
       </div>
-      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-01.jpg" alt="">
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'core/img/products-01.jpg' %}" alt="">
       <div class="product-item-description d-flex ml-auto">
         <div class="bg-faded p-5 rounded">
           <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa purus, posuere non neque sed, ultricies ornare magna. Donec eu lobortis ex. Morbi maximus tempor accumsan. Mauris pellentesque mauris id nibh vestibulum, id sodales lorem bibendum. Nunc at interdum velit. Donec nec sapien eget arcu imperdiet bibendum</p>
@@ -34,7 +37,7 @@
           </h2>
         </div>
       </div>
-      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-02.jpg" alt="">
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'core/img/products-02.jpg' %}" alt="">
       <div class="product-item-description d-flex ml-auto">
         <div class="bg-faded p-5 rounded">
           <p class="mb-0">Morbi dapibus malesuada mollis. Nunc cursus velit eget cursus pharetra. Ut feugiat, dui id congue porttitor, sem erat pharetra dui, in ullamcorper quam nulla vitae quam. Sed blandit libero feugiat diam cursus, nec euismod ante consequat. Curabitur nec tincidunt ipsum, in tempor turpis. Sed ut metus a nisl rhoncus placerat.</p>
@@ -55,7 +58,7 @@
           </h2>
         </div>
       </div>
-      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-03.jpg" alt="">
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'core/img/products-03.jpg' %}" alt="">
       <div class="product-item-description d-flex ml-auto">
         <div class="bg-faded p-5 rounded">
           <p class="mb-0">Integer ac elementum lacus, consectetur cursus tellus. Suspendisse faucibus sapien massa, ac pharetra est aliquet a. In interdum feugiat ultrices. Aliquam eget tempor libero. Aliquam sit amet ante quis lectus fermentum bibendum. Ut molestie nulla in tellus euismod feugiat. Nunc varius erat nulla, eu dictum mi ultrices in.</p>
