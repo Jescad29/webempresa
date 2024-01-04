@@ -10,16 +10,18 @@
 
     <title>Inicio | La Caffettiera</title>
 
+    {% load static %}
+
     <!-- Bootstrap -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'core/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
     <!-- Fuentes -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{% static 'core/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Estilos -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="{% static 'core/css/business-casual.css' %}" rel="stylesheet">
 
   </head>
 
@@ -66,7 +68,7 @@
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/intro.jpg' %}" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Déjate sorprender</span>
@@ -132,8 +134,8 @@
 	</footer>
 
     <!-- Bootstrap -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'core/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'core/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
   </body>
 
