@@ -30,9 +30,5 @@ def contact(request):
     return render(request, 'core/contact.html')
 
 
-def blog(requests):
-    return render(requests, 'core/blog.html')
-
-
 def sample(requests):
     return render(requests, 'core/sample.html')
