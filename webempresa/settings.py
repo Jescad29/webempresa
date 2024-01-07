@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django',
     'core',
     'blog',
+    'pages.apps.PagesConfig',
     'services.apps.ServicesConfig',
     'social.apps.SocialConfig',
 ]

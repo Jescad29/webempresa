@@ -28,7 +28,3 @@ def store(request):
 
 def contact(request):
     return render(request, 'core/contact.html')
-
-
-def sample(requests):
-    return render(requests, 'core/sample.html')
