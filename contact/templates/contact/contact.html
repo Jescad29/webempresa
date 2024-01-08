@@ -24,21 +24,21 @@
                     <div class="input-group">
                       {{form.name}}  
                     </div>
+                    {{form.name.errors}}
                 </div>
                 <div class="form-group">
                     <label>Email *</label>
                     <div class="input-group">
                       {{form.email}}
                     </div>
-                    <!--<ul class="errorlist">
-                        <li>El email no es correcto.</li>
-                    </ul>-->
+                    {{form.email.errors}}
                 </div>
                 <div class="form-group">
                     <label>Mensaje *</label>
                     <div class="input-group">
                       {{form.content}}
                     </div>
+                    {{form.content.errors}}
                 </div>
                 <div class="text-center">
                     <input type="submit" class="btn btn-primary btn-block py-2" value="Enviar">
