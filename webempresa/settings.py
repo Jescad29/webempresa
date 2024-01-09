@@ -149,3 +149,10 @@ CKEDITOR_CONFIGS = {
 }
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Email config
+
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST_USER = 'ea5abe76af7ec9'
+EMAIL_HOST_PASSWORD = '0b360fa59fc162'
+EMAIL_PORT = '2525'
