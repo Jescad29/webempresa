@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 django = "==4.1.7"
 pylint-django = "*"
+python-decouple = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
