@@ -15,3 +15,5 @@ pylint-plugin-utils==0.8.2
 sqlparse==0.4.4
 tomlkit==0.12.3
 tzdata==2023.4
+python-decouple==3.8
+python-dotenv==1.0.0
