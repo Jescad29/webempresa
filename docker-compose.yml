@@ -10,13 +10,13 @@ services:
     depends_on:
       - postgres
 
-postgres:
-  image: postgres:15.5-alpine3.19
-  ports:
-    - "5431:5432"
-  volumenes:
-    - ./database:/var/lib/postgresql/data
-  environment:
-    - POSTGRES_USER=postgres
-    - POSTGRES_PASSWORD=postgres
-    - POSTGRES_DB=postgres
+  postgres:
+    image: postgres:15.5-alpine3.19
+    ports:
+      - "5431:5432"
+    volumenes:
+      - ./database:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
