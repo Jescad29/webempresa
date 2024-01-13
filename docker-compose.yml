@@ -13,10 +13,10 @@ services:
   postgres:
     image: postgres:15.5-alpine3.19
     ports:
-      - "5431:5432"
+      - 5431:5432
     volumenes:
       - ./database:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_PASSWORD=123456789
       - POSTGRES_DB=postgres
