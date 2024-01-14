@@ -47,5 +47,16 @@ docker-compose up -d
 ```sh
 docker-compose exec django sh
 ```
+- Run the command python manage.py migrate
+```sh
+python manage.py migrate
+```
+### Run the command python manage.py createsuperuser and fill in the corresponding fields (Username, email, password)
+```sh
+python manage.py createsuperuser
+```
 
+To exit the container terminal, press CTRL + D
 
+## references
+Project created in the course: Practical Django Course: Web Development Backend with Python
