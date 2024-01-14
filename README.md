@@ -51,7 +51,7 @@ docker-compose exec django sh
 ```sh
 python manage.py migrate
 ```
-### Run the command python manage.py createsuperuser and fill in the corresponding fields (Username, email, password)
+### Run the command python manage.py createsuperuser and fill in the corresponding fields `(Username, email, password)`
 ```sh
 python manage.py createsuperuser
 ```
